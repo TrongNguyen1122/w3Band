@@ -1,0 +1,102 @@
+/* PC */
+@media (min-width: 1024px){
+    #header .btn-menu-mobile {
+        display: none;
+    }
+}
+
+/* TABLET */
+@media (min-width: 724px) and (max-width: 1023px){
+
+}
+
+/* MOBILE */
+@media (max-width: 723px){
+
+    .s-mt-8 {
+        padding-top: 8px !important;
+    }
+    .full-width,
+    .col-full {
+        width: 100%;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .btn-search {
+        display: none;
+    }
+
+    #header .btn-menu-mobile {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: block;
+        float: right;
+        width: 62px;
+        height: 46px;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #header .btn-menu-mobile:hover {
+        background-color: #ccc;
+        color: #000;
+    }
+
+    #nav li:not(:first-child) {
+        width: 100%;
+    }
+
+    #nav > li > a {
+        width: 100%;
+    }
+  
+    #nav .subnav {
+        position: initial;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        background-color: #333;
+        padding: 5px 41px;
+    }
+    #content .member-list {
+        flex-direction: column;
+    }
+    #content .member-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #content .member-img {
+        width: 80%;
+        height:auto;
+        margin-bottom: 16px;
+    }
+
+    .tour-session .tour-place {
+        flex-direction: column;
+        
+    }
+
+    .tour-session .place-item {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+
+   
+
